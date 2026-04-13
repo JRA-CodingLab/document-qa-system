@@ -1,0 +1,23 @@
+{
+  "description": "Test dataset for RAG evaluation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is this document about?",
+      "expected_keywords": ["sample", "test", "document"],
+      "expected_answer": null
+    },
+    {
+      "id": "q2",
+      "question": "What are the main topics covered?",
+      "expected_keywords": ["section", "content"],
+      "expected_answer": null
+    },
+    {
+      "id": "q3",
+      "question": "Can you summarize the key points?",
+      "expected_keywords": ["markdown", "text"],
+      "expected_answer": null
+    }
+  ]
+}

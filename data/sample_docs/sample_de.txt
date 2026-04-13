@@ -1,0 +1,21 @@
+Beispiel-Textdokument
+
+Dies ist ein Beispiel-Textdokument zum Testen des RAG-Dokumentenassistenten.
+Es enthält mehrere Abschnitte zu verschiedenen Themen, die vom System
+abgerufen werden können.
+
+Abschnitt 1: Einführung
+Der Zweck dieses Dokuments ist es, Testinhalte für die Dokumenten-
+Aufnahme und Abruf-Pipeline bereitzustellen. Das System sollte in der
+Lage sein, diese Datei zu laden, sie in Abschnitte zu unterteilen,
+die Abschnitte einzubetten und relevante Abschnitte bei Fragen abzurufen.
+
+Abschnitt 2: Funktionen
+Das RAG-System unterstützt mehrere Dateiformate, darunter PDF, Markdown
+und reinen Text. Es verwendet Vektorähnlichkeitssuche, um die relevantesten
+Dokumentenabschnitte für eine gegebene Anfrage zu finden.
+
+Abschnitt 3: Architektur
+Dokumente werden geladen, mit konfigurierbarer Überlappung in Abschnitte
+unterteilt, mit OpenAI- oder HuggingFace-Modellen eingebettet und in einer
+ChromaDB-Vektordatenbank gespeichert.

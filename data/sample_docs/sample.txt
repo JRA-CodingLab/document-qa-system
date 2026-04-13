@@ -1,0 +1,23 @@
+Sample Text Document
+
+This is a sample text document for testing the Document QA System.
+It contains several sections covering different topics that can be
+retrieved by the system.
+
+Section 1: Introduction
+The purpose of this document is to provide test content for the document
+ingestion and retrieval pipeline. The system should be able to load this
+file, split it into chunks, embed the chunks, and retrieve relevant
+sections when asked questions.
+
+Section 2: Features
+The RAG system supports multiple file formats including PDF, Markdown,
+and plain text. It uses vector similarity search to find the most relevant
+document chunks for a given query. The system supports multiple LLM
+providers including OpenAI, Anthropic, and local models via Ollama.
+
+Section 3: Architecture
+Documents are loaded, chunked with configurable overlap, embedded using
+either OpenAI or HuggingFace models, and stored in a ChromaDB vector
+database. Queries trigger a similarity search followed by LLM-powered
+answer generation with source citations.
