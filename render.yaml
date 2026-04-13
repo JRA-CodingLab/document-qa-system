@@ -1,0 +1,14 @@
+# Render Blueprint for Document QA System (Mock RAG API)
+services:
+  - type: web
+    name: document-qa-system
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "8000"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+    autoDeploy: true
